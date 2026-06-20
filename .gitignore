@@ -1,0 +1,45 @@
+# Yedek ve geçici dosyalar
+src_backup_v1/
+src_backup_v2/
+gemini export/
+package.json
+package-lock.json
+*.rar
+*.zip
+*.tar.gz
+
+# Sistem / IDE
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Geliştirme araçları
+node_modules/
+.claude/
+deploy_pi.sh
+
+# Log ve veri dosyaları
+*.log
+*.csv
+*.pcap
+
+# Hassas dosyalar
+.env
+*.key
+*.pem
+*.secret
+
+# PDF, resim (büyük medya)
+*.pdf
+*.png
+*.jpg
+*.jpeg
+
+# Diğer masaüstü çıktıları
+analiz_cikti.html
+FORENSIC-RAPOR-*.txt
+TURKCEL-DAVA-*.txt
+mtr-*.txt
+traceroute-*.txt
